@@ -15,7 +15,7 @@ class CategoryService
     public function createCategory(array $data)
     {
         $validator = Validator::make($data, [
-            'name' => 'required|string|unique:categories',
+            'name' => 'required|string',
             'description' => 'nullable|string',
         ]);
 

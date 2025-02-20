@@ -64,3 +64,47 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## features
+
+1: Login ,
+2: Register,
+3: Forgot Password,
+4: Reset Password,
+5: create Product
+6: Update Product
+7: Delete Product
+8: Get product by id 
+9: Get all products
+10: create category
+11: update category
+12: delete category
+13: get category by id
+14: get all categories
+
+## Setup
+
+1. Clone the repository and navigate to the project directory.
+
+    ```
+https://github.com/Charlesuwaje/ProductManagement-System
+    ```
+
+2. Create a `.env` file in the project root and set the necessary environment variables such as mailing provider.
+3. Run the database migrations:
+    ```bash
+    php artisan migrate
+    ```
+4. Start the development server:
+    ```bash
+    php artisan serve
+    ```
+5. Open your web browser and visit `http://localhost:8000` to access the task manager.
+6. Set up your mail service provider
+7. run your database seeder
+8. This is the post man link
+
+```
+https://documenter.getpostman.com/view/23719289/2sAYdZva7i
+
